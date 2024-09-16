@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import TaskPage from "./pages/TaskPage";
+// import * as serviceWorkerRegistration from './serviceWorker';
 
 const App: React.FC = () => {
   return (
@@ -11,5 +12,7 @@ const App: React.FC = () => {
     </Routes>
   );
 };
+
+// serviceWorkerRegistration.register();
 
 export default App;
