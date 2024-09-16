@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import { useState } from "react";
 import { IoAddOutline } from "react-icons/io5";
 import FormDialog from "./common/Modal";
+import InstallButton from "./common/InstallButton";
 export default function Navbar() {
   const [openAddModal, setOpenAddModal] = useState<boolean>(false);
   return (
@@ -15,6 +16,7 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Task Management App
           </Typography>
+          <InstallButton/>
           <Button
             color="primary"
             variant="contained"

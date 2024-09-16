@@ -1,24 +1,20 @@
 {
-  "short_name": "TaskMgr",
+  "short_name": "TaskApp",
   "name": "Task Management App",
-  "description": "A Task Management App where users can create, edit, delete, and manage tasks using the Dummy JSON API.",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "icons/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "icons/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
-  "background_color": "#ffffff",
-  "theme_color": "#1976d2",
   "display": "standalone",
-  "scope": "/",
-  "orientation": "portrait",
-  "lang": "en-US"
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
 }
