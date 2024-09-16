@@ -16,7 +16,7 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Task Management App
           </Typography>
-          <InstallButton/>
+          {/* <InstallButton/> */}
           <Button
             color="primary"
             variant="contained"
